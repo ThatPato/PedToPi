@@ -17,7 +17,7 @@ function iniciarSesion() {
     const usuario = document.getElementById("usuario").value;
     const clave = document.getElementById("clave").value;
 
-    if (usuario === "admin" && clave === "1234") {
+    if (usuario === "admin270" && clave === "cafe270.") {
         document.getElementById("login").classList.add("oculto");
         document.getElementById("admin").classList.remove("oculto");
         mostrarPedidos(); // Mostrar inmediatamente
