@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 150px auto; 
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2, h1 {
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+.login, .admin {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+
+.oculto {
+    display: none;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
